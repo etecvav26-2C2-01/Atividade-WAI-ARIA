@@ -32,3 +32,20 @@ Informa se o elemento esta aberto ou fechado, sendo indicado por 'false' ou 'tru
 
 ## Por que o WAI-ARIA não substitui o HTML semântico?
 A ferramenta em si não substitui o HTML semântico, pois os elementos HTML já possuem significado, comportamento e recursos de acessibilidade nativos. O WAI-ARIA deve ser utilizado somente quando o HTML sozinho não é suficiente para representar corretamente um componente ou estado.
+
+## Exemplo de uso do WAI-ARIA:
+Um exemplo de uso do WAI-ARIA é para indicar se um menu está aberto ou fechado:
+
+```
+<button
+aria-expanded=”false”>
+```
+
+Nesse caso, o atributo `aria-expanded=”false”` informa aos leitores de tela que o menu em questão está fechado. Quando aberto, o atributo muda seu valor para `“true”`
+
+```
+<button
+aria-expanded="true”>
+```
+
+Assim, as tecnologias assistivas conseguem informar aos usuários o estado atual do menu.
