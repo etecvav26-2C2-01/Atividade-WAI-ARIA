@@ -27,3 +27,8 @@ Informa se o elemento esta aberto ou fechado, sendo indicado por 'false' ou 'tru
 
 ## Qual é a importância do atributo `aria-label` para usuários que utilizam leitores de tela?
 É importante pois nos permite a dar nome a um elemento, tornando a leitura atraves de um leitor de tela ou ferramentas de acessibilidade mais clara e objetiva.
+
+---
+
+## Por que o WAI-ARIA não substitui o HTML semântico?
+A ferramenta em si não substitui o HTML semântico, pois os elementos HTML já possuem significado, comportamento e recursos de acessibilidade nativos. O WAI-ARIA deve ser utilizado somente quando o HTML sozinho não é suficiente para representar corretamente um componente ou estado.
